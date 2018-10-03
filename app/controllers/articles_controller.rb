@@ -33,6 +33,17 @@ class ArticlesController < ApplicationController
     @article = Article.find(params[:id]) 
   end
 
+# adding the index action (for listing all articles)
+  def index
+    @articles = Article.all
+  end
+
+
+
+
+
+
+
   private
   def form_params
     params.require(:article).permit(:title, :description)
