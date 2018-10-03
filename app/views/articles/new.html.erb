@@ -1,3 +1,12 @@
+<!-- check if there any error mesages passed the @article obj -->
+<% if @article.errors.any?%>
+  <ul>
+   <% @article.errors.full_messages.each do |msg| %>
+   <li> <%= msg %>  </li>
+   <% end %>
+  </ul>
+<%end%>
+
 <h1>Create new Article Here!</h1>
 <%= form_for @article do |f| %>
   <p>
@@ -8,7 +17,5 @@
     <%= f.label "Desctiption" %> <br/>
     <%= f.text_area :description%>
   </p>
-  <p>
-    <%= f.submit "Create"%>
-  </p>
+  
 <%end%>
