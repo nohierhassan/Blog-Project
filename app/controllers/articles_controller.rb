@@ -32,6 +32,14 @@ class ArticlesController < ApplicationController
   def show
     @article = Article.find(params[:id]) 
   end
+  
+  def destroy
+    @article = Article.find(params[:id])
+    @article.destroy
+    flash[:success] = "The Article has been deleted"
+    redirect_to articles_path
+
+  end
 
 # adding the index action (for listing all articles)
   def index
