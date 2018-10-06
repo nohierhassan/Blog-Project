@@ -27,7 +27,8 @@ class ArticlesController < ApplicationController
       flash[:success] = "Article was successfully updated"
       redirect_to article_path(@article)
     else
-      render 'edit'
+      puts "7amoooooooooooooooooo"
+     render :edit, article: @article 
     end
   end
 
