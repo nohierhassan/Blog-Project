@@ -23,3 +23,15 @@ $navbar-default-bg:#34495E;
 
   text-align: center;
 }
+
+.jumbotron{
+  background-image: asset-url('image_jumbotron.png');
+  background-size: cover;
+
+}
+// to access all the h1 tags in the jumbotron
+.jumbotron h1{
+color:  #809fff;
+text-align: center;
+font-weight: bold;
+}
