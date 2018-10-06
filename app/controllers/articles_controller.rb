@@ -10,7 +10,7 @@ class ArticlesController < ApplicationController
     # you cannot pass the parameters of the form directly instead make a method to do that
     @article = Article.new(form_params)
     if @article.save
-      flash[:notice] = "Your article has been created"
+      flash[:success] = "Your article has been created"
       redirect_to article_path(@article)
     else 
       render :new   # new is the url -->to show again to the user
@@ -40,7 +40,7 @@ class ArticlesController < ApplicationController
   def destroy
     #@article = Article.find(params[:id])
     @article.destroy
-    flash[:success] = "The Article has been deleted"
+    flash[:danger] = "The Article has been deleted"
     redirect_to articles_path
 
   end
