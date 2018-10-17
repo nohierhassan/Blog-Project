@@ -18,6 +18,25 @@ class UsersController < ApplicationController
   def show
   end
 
+  def edit
+    # @user is the parameter to pass to the edit page it self (we edit the passed object in the url)
+   
+    @user = User.find(params[:id]) 
+  end
+
+  def update  # update() called when the patch action in called
+    @user = User.find(params[:id])
+    if @user.update(form_params)
+      flash[:success] = "User was updated successfully."
+      redirect_to articles_path
+    else
+      render :edit, user: @user 
+
+    end
+
+    
+  end
+
 
   private
 
