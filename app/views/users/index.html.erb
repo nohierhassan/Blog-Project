@@ -1,0 +1,17 @@
+<h1 align="center"> Listing all the users  </h1>  
+<% @users.each do |user_obj|%>
+  <ul class="users-list">
+    <div class="row"> 
+      <div class="well col-md-4 col-md-offset-4 center">
+
+       <li> <%=link_to gravatar_for(user_obj), user_path(user_obj) %> <li>
+
+       <li class="article-title"> 
+       <%= link_to user_obj.username, user_path(user_obj)%>
+       </li>
+       <li> <small> <%= pluralize(user_obj.articles.count, "articles") if user_obj.articles%> </small></li>
+     </div>
+    </div>
+  </ul>
+<%end%>
+

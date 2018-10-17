@@ -34,8 +34,10 @@ class UsersController < ApplicationController
       render :edit, user: @user 
 
     end
+  end
 
-    
+  def index
+    @users = User.all
   end
 
 
