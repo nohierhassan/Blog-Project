@@ -9,7 +9,7 @@ class ArticlesController < ApplicationController
     #render plain: params[:article].inspect
     # you cannot pass the parameters of the form directly instead make a method to do that
     @article = Article.new(form_params)
-    @article.user = User.first
+    @article.user = User.last
     if @article.save
       flash[:success] = "Your article has been created"
       redirect_to article_path(@article)

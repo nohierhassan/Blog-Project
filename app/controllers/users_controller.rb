@@ -16,6 +16,7 @@ class UsersController < ApplicationController
   end
 
   def show
+    @user = User.find(params[:id]) # as you pass the id in the url
   end
 
   def edit
