@@ -48,7 +48,7 @@ class ArticlesController < ApplicationController
 
 # adding the index action (for listing all articles)
   def index
-    @articles = Article.all
+    @articles = Article.paginate(page: params[:page], per_page: 5)
   end
 
 

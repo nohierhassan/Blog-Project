@@ -7,4 +7,13 @@
 </div>
 <h4 align="center"><%= @user.username%>'s articles:</h4>
 <% puts @user.articles %>
-  <%= render 'articles/articles', obj: @user.articles %>
+<div align="center">
+<%= will_paginate @user_articles%> <!-- you have to specify the passed paramerter
+if ther is more than one -->
+<div>
+
+  <%= render 'articles/articles', obj: @user_articles %>
+  <div align="center">
+
+<%= will_paginate @user_articles%>
+<div>

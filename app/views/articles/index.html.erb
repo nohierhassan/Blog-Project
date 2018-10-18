@@ -4,9 +4,15 @@
 <h1> Alpha Blog </h1>
 <%= link_to "Sing UP", "#", class:"btn btn-danger btn-lg btn-xlarge"  %>
 </div-->
-  
+  <div align="center">
+    <%= will_paginate%>   <!-- this div to display the pages numbers on the top -->
+  </div>
+
 <%= render "articles", obj: @articles %>
 
+<div align="center">
+    <%= will_paginate%>
+  </div>
 
 
   
