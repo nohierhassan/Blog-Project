@@ -1,4 +1,9 @@
 class UsersController < ApplicationController
+  
+  before_action :set_user, only: [:edit, :update, :show]
+  before_action :require_user, except: [:index, :show]
+  before_action :require_same_user, only: [:edit, :update]
+  
   def new
     @user = User.new
   end
@@ -16,19 +21,18 @@ class UsersController < ApplicationController
   end
 
   def show
-    @user = User.find(params[:id]) 
+    # #set_user() is called here from the before:
     #paginate all the articles of this user
     @user_articles = @user.articles.paginate(page: params[:page], per_page: 5)
   end
 
   def edit
-    # @user is the parameter to pass to the edit page it self (we edit the passed object in the url)
-   
-    @user = User.find(params[:id]) 
+    #set_user() is called here from the before:
   end
 
-  def update  # update() called when the patch action in called
-    @user = User.find(params[:id])
+  def update
+    #set_user() is called here from the before:
+    
     if @user.update(form_params)
       flash[:success] = "User was updated successfully."
       redirect_to articles_path
@@ -44,13 +48,13 @@ class UsersController < ApplicationController
 
 
   private
+ # function to find the @user based on the params[:id]
+ # we will use this function for update
+  def set_user
+     @user = User.find(params[:id])
+  end
 
-  # def set_article
-  #   @article = Article.find(params[:id])
-  # end
   def form_params
     params.require(:user).permit(:username, :email, :password)
   end
-
-
 end

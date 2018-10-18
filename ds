@@ -1,0 +1,345 @@
+[33mcommit 80ec98a1a1ca64aafd370da50c47e165f63e7a83[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Thu Oct 18 16:29:12 2018 +0200
+
+    Create and Destroy Sessions are working
+
+[33mcommit 510bfd788a9f159d87683d7700753adac29832c7[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Thu Oct 18 15:05:47 2018 +0200
+
+    Login-Form is added successfully
+
+[33mcommit eaeb4a53e0d9bf15dd59c1da529e8b13b1e30fee[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Thu Oct 18 13:59:46 2018 +0200
+
+    Pagination is working correctly
+
+[33mcommit d69ae9f2f6b991bec8e25218d627786d85359de3[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Wed Oct 17 20:25:10 2018 +0200
+
+    Users Index is working
+
+[33mcommit a14d7e5a8c0cc96640de5561bf17120326e79dd1[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Wed Oct 17 14:24:02 2018 +0200
+
+    user image/list is working
+
+[33mcommit 2cf551e04df9ca0bf75cae38fe7fd43eefe3f9c2[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Wed Oct 17 11:41:19 2018 +0200
+
+    Edit User is working correctly
+
+[33mcommit 73933c9d72b3fffbd1e68825b883b085c8629a9b[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Mon Oct 15 17:29:33 2018 +0200
+
+    User SignUp is added Successfull
+
+[33mcommit cd6631149202c494ded63f42bece2222b8f6f661[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Mon Oct 15 16:28:19 2018 +0200
+
+    adding sucure password successfully
+
+[33mcommit 805ff6793e5ee7dad5f1ca4cdc43c16a2f7b3bc6[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Sun Oct 14 18:07:08 2018 +0200
+
+    user-info are added Successfully
+
+[33mcommit f4acfaa7e5d9b4029ba2f8d8b7666c1a56b0215b[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Sun Oct 14 17:07:45 2018 +0200
+
+    adding user-association Successfully
+
+[33mcommit 5a704f48bac8e070ddbdb68fe0dee060e9829c2b[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Sun Oct 14 14:39:40 2018 +0200
+
+    Validation is working
+
+[33mcommit cafd17f81ff70740f4919222a82d9ce3f717e5bd[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Sun Oct 14 13:48:13 2018 +0200
+
+    User Model Created Successfully
+
+[33mcommit 635d52c3133cb898bfd28d31082f0b127ba3974f[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Sun Oct 7 21:01:25 2018 +0200
+
+    Deployed Successfully
+
+[33mcommit 899dcd927ad33b21f6407a1ad0a634d437642c3f[m[33m ([m[1;31mheroku/master[m[33m, [m[1;31mheroku/Deploying[m[33m)[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Sun Oct 7 20:35:09 2018 +0200
+
+    Styling List View Successfully
+
+[33mcommit 9c6d886abaf6a19970c639954fe2f121b50cc1e4[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Sat Oct 6 20:22:19 2018 +0200
+
+    styling show view is working ;)
+
+[33mcommit d0634e76717d34c49483bfb7bfb6571b0aa3b4d5[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Sat Oct 6 19:07:48 2018 +0200
+
+    styling errors and messages wroked fine ;)
+
+[33mcommit f370f68d0e40cd6cdabe2895836f1b43d95a6b8f[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Sat Oct 6 18:45:17 2018 +0200
+
+    styling errors done
+
+[33mcommit 8740ef60684d361994e6dd4f4bc5ccc26ad24ed3[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Sat Oct 6 17:39:33 2018 +0200
+
+    styling form successfully
+
+[33mcommit cb1588c2de4459a6f8a93fefd9ff4275054f81b1[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Sat Oct 6 14:22:41 2018 +0200
+
+    adding the jumbotron and footer successfully
+
+[33mcommit 8c56bbe3c11961bf679a811963716e970cf361d7[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Sat Oct 6 13:36:30 2018 +0200
+
+    working in the jumbotron
+
+[33mcommit 54857f37da0ce6f4fad03ac8a83b720266b6d43d[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Sat Oct 6 11:21:58 2018 +0200
+
+    issue in custome.css is solved
+
+[33mcommit b27945077b41207447fcba4123c8d1f9e12eb5cf[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Sat Oct 6 11:19:10 2018 +0200
+
+    Navigation bar is DONE
+
+[33mcommit c0544318e03b51a5fa7a0d08285f08514e0239db[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Thu Oct 4 20:06:11 2018 +0200
+
+    buliding the home page
+
+[33mcommit beafb8918b333c8831dbe5a7a37e273d620706f8[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Thu Oct 4 18:55:32 2018 +0200
+
+    now BootStrap is working ;)
+
+[33mcommit a93221a723775981e912320941033f41364d28e5[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Thu Oct 4 18:37:32 2018 +0200
+
+    BootStrap is working correctly
+
+[33mcommit a276b32c7b8913bb2f56b7958b6ca639f6922ec7[m
+Merge: 1ee502e 59fc246
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Thu Oct 4 18:16:35 2018 +0200
+
+    Merge branch 'master' of https://github.com/nohierhassan/Blog-Project
+
+[33mcommit 1ee502e2ed381b3a0919cd453250b70e3f138675[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Thu Oct 4 18:15:16 2018 +0200
+
+    Deployed successfully
+
+[33mcommit 59fc246d5d6a2216ca8e9faf5af891812dede052[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Thu Oct 4 16:42:39 2018 +0200
+
+    never lose hopwssaa
+
+[33mcommit 7dc534126ff89485147d7a11a64afaa12ced85bd[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Thu Oct 4 16:41:39 2018 +0200
+
+    never lose hopwss
+
+[33mcommit 955945cf24cea2bd026d2a8166005fd11bf01967[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Thu Oct 4 16:38:36 2018 +0200
+
+    never lose hopw
+
+[33mcommit 81e329f6860117ccb181cc38265efec76d1d90bc[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Thu Oct 4 16:35:45 2018 +0200
+
+    hope
+
+[33mcommit 9f6293865f6ff60c8bf5a8a02ceb4ed502547087[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Thu Oct 4 16:18:35 2018 +0200
+
+    woorking
+
+[33mcommit 2cd767303fb955ecf9c7f68d4f7498d353172ed2[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Thu Oct 4 16:11:32 2018 +0200
+
+    dfdfd
+
+[33mcommit 64cb0bb607164ba3366702d3329e3576414c0ef2[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Thu Oct 4 16:02:47 2018 +0200
+
+    dfdfaa
+
+[33mcommit e61164565a56f6e289baff965a7c129a4204c3a6[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Thu Oct 4 15:57:12 2018 +0200
+
+    dfdfdaa
+
+[33mcommit b72dcb42cc32dc5fe99bb9506dd43daa19d94d08[m
+Merge: fc7f5ce 74710f4
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Thu Oct 4 15:56:42 2018 +0200
+
+    dfdfdf
+
+[33mcommit 74710f4ab904627cf4690574cb0aecb8652ed0b6[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Thu Oct 4 15:54:42 2018 +0200
+
+    edit Gem file
+
+[33mcommit fc7f5ceae66910f7aceaeaa30ea7498bab0953a8[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Thu Oct 4 15:51:17 2018 +0200
+
+    dfddf
+
+[33mcommit 0e6c2e0a5c0efca987c60cd0d143cc61d3ef721d[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Thu Oct 4 15:17:43 2018 +0200
+
+    dfdfssaaaaa
+
+[33mcommit 84fa9da59e3ad46b29075d0d1221c0d3377cf928[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Thu Oct 4 15:14:43 2018 +0200
+
+    dfdfss
+
+[33mcommit 04cbad73dd6e7330f622e393c450c80e4699c88b[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Thu Oct 4 15:11:38 2018 +0200
+
+    dfdf
+
+[33mcommit af838905a63ff9010e602b93a9a1bc1af3e44ee4[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Thu Oct 4 15:09:03 2018 +0200
+
+    adding sqlite3 to development
+
+[33mcommit ee9ffdf882cdd071b5b780ac67bca26fae2f50fc[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Thu Oct 4 15:05:21 2018 +0200
+
+    bundle
+
+[33mcommit a216ee05ffe1f1f87704b758d38003fb5990e0f7[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Thu Oct 4 14:59:47 2018 +0200
+
+    adding Gem file
+
+[33mcommit f216aaab5366efc9ce2a0811261d8e7423524a14[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Thu Oct 4 14:54:53 2018 +0200
+
+    gem added
+
+[33mcommit f1eebb8e7b1b7992ded7f0fa5a4a9be47f952205[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Thu Oct 4 14:51:55 2018 +0200
+
+    adding production gem
+
+[33mcommit 966f04e3fdd39108c6d9b2a0adfe884901e76dc1[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Thu Oct 4 14:30:22 2018 +0200
+
+    ready to deploy
+
+[33mcommit 8b26768031afa571781f57a56d746341cd319f2c[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Wed Oct 3 20:39:01 2018 +0200
+
+    destroy and partials are working
+
+[33mcommit b1f8392b030317a72d5f4d3c3752e87e1345542b[m
+Merge: 7e1defe 3ae7129
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Wed Oct 3 19:55:35 2018 +0200
+
+    dfdfdf
+
+[33mcommit 7e1defe3bce9926ce5e290c46ccf9c9d126d21cf[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Wed Oct 3 19:53:03 2018 +0200
+
+    Create Udate List are working
+
+[33mcommit 3ae7129147ab66781491a994b9ad1f4698ac9409[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Wed Oct 3 19:49:38 2018 +0200
+
+    create list update are working
+
+[33mcommit c5480ffedabd29c68cb05e36d370f0732623e55d[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Wed Oct 3 18:35:47 2018 +0200
+
+    create update are working and merged
+
+[33mcommit 099842cb6db67fbd5faee122fb579c63fc76a8bd[m
+Merge: 0797794 65b3a91
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Wed Oct 3 18:31:41 2018 +0200
+
+    Merge branch 'CRUD'
+
+[33mcommit 65b3a91ca9e05a2c7c834b0e8eaa3215b80ac0d3[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Wed Oct 3 18:17:37 2018 +0200
+
+    create edit and update are wroking
+
+[33mcommit 0e579b90ab87b2a7925c9eb093e96635ec16b9c2[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Wed Oct 3 13:31:26 2018 +0200
+
+    create feature is working
+
+[33mcommit 07977940a0ef1070e854f0cdf7376bcac951eb57[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Tue Oct 2 17:38:51 2018 +0200
+
+    Creating Model,Database and Validators
+
+[33mcommit 314fce14d1a76bdd3677f0a74cc70a872697eae7[m
+Author: Nohier <nohierassan2@gmail.com>
+Date:   Tue Oct 2 13:54:47 2018 +0200
+
+    first commit

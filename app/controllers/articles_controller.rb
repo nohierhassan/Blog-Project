@@ -1,6 +1,8 @@
 class ArticlesController < ApplicationController
   # this line will allow the actions to call the set_article method first
   before_action :set_article, only: [:edit, :update, :show, :destroy]
+  before_action :require_user, except: [:index, :show]
+  before_action :require_same_user, only: [:edit, :update, :destroy]
 
   def new
     @article = Article.new
@@ -9,7 +11,7 @@ class ArticlesController < ApplicationController
     #render plain: params[:article].inspect
     # you cannot pass the parameters of the form directly instead make a method to do that
     @article = Article.new(form_params)
-    @article.user = User.last
+    @article.user = current_user
     if @article.save
       flash[:success] = "Your article has been created"
       redirect_to article_path(@article)
@@ -51,19 +53,15 @@ class ArticlesController < ApplicationController
     @articles = Article.paginate(page: params[:page], per_page: 5)
   end
 
-
-
-
-
-
-
   private
 
   def set_article
     @article = Article.find(params[:id])
   end
+  
   def form_params
     params.require(:article).permit(:title, :description)
   end
+  
 
 end

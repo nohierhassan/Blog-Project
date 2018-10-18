@@ -24,7 +24,7 @@ class SessionsController < ApplicationController
     # set the session[:user_id]= nil to indicate that the user is logged out
     session[:user_id] = nil
     flash[:success] = "You are successfully logged out"
-    redirect_to articles_path
+    redirect_to articles_path 
 
   end
 
