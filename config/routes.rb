@@ -4,4 +4,7 @@ Rails.application.routes.draw do
 resources :articles
 get "signup", to: 'users#new'
 resources :users, except: [:new]
+get "login", to: 'sessions#new'             # handling the login form
+post "login", to: 'sessions#create'         # handling the login action itself
+delete "logout", to: 'sessions#destroy'     # handling the logout action
 end
