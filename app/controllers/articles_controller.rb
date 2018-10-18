@@ -1,5 +1,8 @@
 class ArticlesController < ApplicationController
   # this line will allow the actions to call the set_article method first
+
+  # you are able to use all the bellow methods as they are in ApplicationController 
+  # which they inherit from
   before_action :set_article, only: [:edit, :update, :show, :destroy]
   before_action :require_user, except: [:index, :show]
   before_action :require_same_user, only: [:edit, :update, :destroy]
@@ -58,7 +61,7 @@ class ArticlesController < ApplicationController
   def set_article
     @article = Article.find(params[:id])
   end
-  
+
   def form_params
     params.require(:article).permit(:title, :description)
   end
