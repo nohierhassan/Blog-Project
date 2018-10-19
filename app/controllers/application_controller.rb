@@ -20,13 +20,4 @@ def require_user
   end
 end
 
-def require_same_user
-  
-  if current_user != @article.user
-    debugger
-    flash[:danger] = "You are not allowed to make actions"
-    redirect_to login_path
-  end
-end
-
 end

@@ -1,8 +1,7 @@
 class UsersController < ApplicationController
   
   before_action :set_user, only: [:edit, :update, :show]
-  before_action :require_user, except: [:index, :show, :new]
-  before_action :require_same_user, only: [:edit, :update]
+  before_action :require_same_user, only: [:edit, :update, :destroy]
   
   def new
     @user = User.new
@@ -12,10 +11,12 @@ class UsersController < ApplicationController
     # you cannot pass the form parameters directly to the function... instead make a method to do it
     @user = User.new(form_params)
     if @user.save
+      session[:user_id] = @user.id 
       flash[:success] = "Welcome to the Alpha Blog #{@user.username} ."
-      redirect_to users_path
+      redirect_to user_path(@user)
     else 
-      render :new
+      flash[:danger] = "process is not completed"
+      redirect_to root_path
     end  
 
   end
@@ -56,5 +57,11 @@ class UsersController < ApplicationController
 
   def form_params
     params.require(:user).permit(:username, :email, :password)
+  end
+  def require_same_user
+    if current_user != @user  
+      flash[:danger] = "You are not allowed to make actions"
+      redirect_to root_path
+    end
   end
 end
