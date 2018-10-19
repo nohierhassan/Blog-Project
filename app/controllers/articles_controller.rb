@@ -4,7 +4,6 @@ class ArticlesController < ApplicationController
   # you are able to use all the bellow methods as they are in ApplicationController 
   # which they inherit from
   before_action :set_article, only: [:edit, :update, :show, :destroy]
-  before_action :require_user, except: [:index, :show]
   before_action :require_same_user, only: [:edit, :update, :destroy]
 
   def new
@@ -65,6 +64,11 @@ class ArticlesController < ApplicationController
   def form_params
     params.require(:article).permit(:title, :description)
   end
-  
+  def require_same_user
+    if current_user != @article.user  
+      flash[:danger] = "You are not allowed to make actions"
+      redirect_to root_path
+    end
+  end
 
 end
