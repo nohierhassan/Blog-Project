@@ -14,7 +14,7 @@ def logged_in?
 end
 
 def require_user
-  if !logged_in?
+  if !logged_in? && !current_user.admin?
     flash[:danger] = "You have to be logged in "
     redirect_to login_path
   end

@@ -59,7 +59,7 @@ class UsersController < ApplicationController
     params.require(:user).permit(:username, :email, :password)
   end
   def require_same_user
-    if current_user != @user  
+    if current_user != @user  && !current_user.admin?
       flash[:danger] = "You are not allowed to make actions"
       redirect_to root_path
     end
