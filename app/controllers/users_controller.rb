@@ -1,7 +1,8 @@
 class UsersController < ApplicationController
   
-  before_action :set_user, only: [:edit, :update, :show]
+  before_action :set_user, only: [:edit, :update, :show, :destroy]
   before_action :require_same_user, only: [:edit, :update, :destroy]
+  before_action :require_admin, only: [:destroy]
   
   def new
     @user = User.new
@@ -47,6 +48,14 @@ class UsersController < ApplicationController
     @users = User.paginate(page: params[:page], per_page: 5)
   end
 
+  def destroy
+    # set_user will find the user
+    @user.destroy
+    flash[:danger] = "#{@user.username} and it's articles have been deleted"
+    redirect_to users_path
+  end
+
+
 
   private
  # function to find the @user based on the params[:id]
@@ -64,4 +73,5 @@ class UsersController < ApplicationController
       redirect_to root_path
     end
   end
+  
 end
